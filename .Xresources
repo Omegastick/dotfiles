@@ -72,3 +72,5 @@ rofi.padding: 32
 rofi.fixed-num-lines: false
 rofi.hide-scrollbar: true
 rofi.width: 10
+rofi.locaion: 0
+rofi.yoffset: -100

@@ -166,3 +166,10 @@ export GOOGLE_APPLICATION_CREDENTIALS=$HOME/.gcloud/keyfile.json
 export ST_CLOUD_BASE_URL=https://asia-northeast1-st-dev-252104.cloudfunctions.net/
 
 export PATH=$PATH:$HOME/dev/ccache
+
+# i3blocks script directory
+export BLOCKS_DIR=$HOME/.config/i3blocks
+
+export GCC_COLORS=TRUE
+
+export PYTHONPATH=.

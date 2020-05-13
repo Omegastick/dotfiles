@@ -103,7 +103,7 @@ bindsym $mod+a focus parent
 set $ws1 "1 Terminals"
 set $ws2 "2 Browser"
 set $ws3 "3 Code"
-set $ws4 "4"
+set $ws4 "4 Slack"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
@@ -137,6 +137,7 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 
 assign [class="Google-chrome"] $ws2
 assign [class="Code"] $ws3
+assign [class="Slack"] $ws4
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -250,11 +251,13 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym $mod+shift+x exec /home/omega/.config/i3/lock.sh
 
 # Autoload
-exec_always feh --randomize --bg-fill /home/omega/Pictures/Wallpapers/*
+exec_always feh --bg-fill /home/omega/Pictures/Wallpapers/7W4gNBN.jpg
+
 exec --no-startup-id google-chrome
 exec --no-startup-id code
 exec --no-startup-id compton
 exec --no-startup-id redshift
+exec --no-startup-id slack
 
 # Disable title bars
 for_window [class="^.*"] border pixel 2
