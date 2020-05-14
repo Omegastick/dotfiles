@@ -64,11 +64,12 @@ rofi.color-urgent: #1d2021, #fbf1c7, #1d2021, #1d2021, #928374
 rofi.separator-style: none
 rofi.sidebar-mode: false
 rofi.lines: 5
-rofi.font: Mononoki NF 24
-!rofi.font: System San Francisco Display 18
+rofi.font: Mononoki NF 12
 rofi.bw: 2
 rofi.columns: 1
-rofi.padding: 32
+rofi.padding: 16
 rofi.fixed-num-lines: false
 rofi.hide-scrollbar: true
-rofi.width: 10
+rofi.width: 14
+rofi.location: 0
+rofi.yoffset: -100
