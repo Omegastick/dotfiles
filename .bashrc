@@ -173,3 +173,5 @@ export BLOCKS_DIR=$HOME/.config/i3blocks
 export GCC_COLORS=TRUE
 
 export PYTHONPATH=.
+
+export PATH=$PATH:$HOME/.cargo/bin
