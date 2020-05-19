@@ -175,3 +175,5 @@ export PYTHONPATH=.
 
 export PATH=$PATH:$HOME/.cargo/bin
 
+export VISUAL=vim
+export EDITOR="$VISUAL"
